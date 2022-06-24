@@ -1,0 +1,57 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+ul {
+  padding-left: 0;
+  li {
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .li-main {
+    font-weight: 500;
+    color: #000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .li-secondary {
+    font-weight: 400;
+    color: gray;
+    font-size: 14px;
+  }
+}
+
+.th-title {
+  color: gray;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.status {
+  text-align: center;
+}
+
+.status-content {
+  border-radius: 5px;
+  color: white;
+}
+.new {
+  background-color: red;
+}
+.completed {
+  background-color: rgb(3, 198, 42);
+}
+.started {
+  background-color: rgb(3, 40, 203);
+}
+.assigned {
+  background-color: rgb(203, 89, 3);
+}
+.declined {
+  background-color: black;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
